@@ -11,7 +11,7 @@
 //   })
 //   ctrl.abort() // cancel
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api'
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://cb-ros-backend.onrender.com/api'
 
 export function streamDiscovery(payload, handlers = {}) {
   const controller = new AbortController()
